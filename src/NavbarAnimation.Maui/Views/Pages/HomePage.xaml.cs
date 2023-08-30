@@ -1,10 +1,6 @@
-﻿namespace NavbarAnimation.Maui.Views.Pages
+﻿namespace NavbarAnimation.Maui.Views.Pages;
+
+public partial class HomePage : ContentPage
 {
-    public partial class HomePage : ContentPage
-    {
-        public HomePage()
-        {
-            InitializeComponent();
-        }
-    }
+	public HomePage() => InitializeComponent();
 }

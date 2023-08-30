@@ -1,10 +1,6 @@
-﻿namespace NavbarAnimation.Maui.Views.Pages
+﻿namespace NavbarAnimation.Maui.Views.Pages;
+
+public partial class ChatPage : ContentPage
 {
-    public partial class ChatPage : ContentPage
-    {
-        public ChatPage()
-        {
-            InitializeComponent();
-        }
-    }
+	public ChatPage() => InitializeComponent();
 }

@@ -1,10 +1,6 @@
-﻿namespace NavbarAnimation.Maui.Views.Pages
+﻿namespace NavbarAnimation.Maui.Views.Pages;
+
+public partial class FolderPage : ContentPage
 {
-    public partial class FolderPage : ContentPage
-    {
-        public FolderPage()
-        {
-            InitializeComponent();
-        }
-    }
+	public FolderPage() => InitializeComponent();
 }
